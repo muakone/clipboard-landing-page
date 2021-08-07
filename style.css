@@ -32,7 +32,7 @@ p {
 }
 .text {
     max-width: 30rem;
-    margin: 2em 0em 2em 28em;
+    margin: 1rem auto;
 }
 .ios {
     width: 200px;
@@ -44,7 +44,9 @@ p {
     border: none;
     border-bottom: green solid 3px;
     box-shadow: var(--Strong-cyan) -2px 15px 15px -12px;
-    
+}
+button {
+    transition: ease-in-out 0.8s;
 }
 .Mac {
     width: 200px;
@@ -134,5 +136,22 @@ ul{
     justify-content: space-around;
 }
 .media {
-    margin: 1rem 0rem 0rem 1rem;
+    margin: 2rem 0rem 0rem 1.5rem;
+}
+/* Active */
+.ios:hover, .Mac:hover {
+    opacity: .8;
+    cursor: pointer;
+}
+.about  p:hover {
+    text-decoration: underline;
+    color: var(--Strong-cyan);
+    font-size: 20px;
+    cursor: pointer;
+}
+.media:hover {
+    width: 27px;
+    height: 23px;
+    filter: invert(27%) sepia(51%) saturate(2878%) hue-rotate(143deg) brightness(100%) contrast(97%);
+    cursor: pointer;
 }
