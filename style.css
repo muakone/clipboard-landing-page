@@ -10,7 +10,6 @@
 }
 
 body {
-    width: 90%;
     background-image: url(./images/bg-header-desktop.png);
     background-repeat: no-repeat;
     background-size: 100% 20em;
@@ -33,7 +32,7 @@ p {
 }
 .text {
     max-width: 30rem;
-    margin: 2em 0em 2em 21em;
+    margin: 2em 0em 2em 10em;
 }
 .ios {
     width: 200px;
@@ -111,7 +110,6 @@ div > h3 {
 }
 
 footer {
-    width: 100%;
     background-color: whitesmoke;
     text-align: center;
     font-family: 'Bai Jamjuree', sans-serif;
