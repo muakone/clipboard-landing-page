@@ -33,7 +33,7 @@ p {
 }
 .text {
     max-width: 30rem;
-    margin: 2em 0em 2em 25em;
+    margin: 2em 0em 2em 21em;
 }
 .ios {
     width: 200px;
@@ -111,7 +111,7 @@ div > h3 {
 }
 
 footer {
-    width: 83em;
+    width: 100%;
     background-color: whitesmoke;
     text-align: center;
     font-family: 'Bai Jamjuree', sans-serif;
