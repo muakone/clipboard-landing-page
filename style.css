@@ -115,10 +115,11 @@ footer {
     background-color: whitesmoke;
     text-align: center;
     font-family: 'Bai Jamjuree', sans-serif;
+    margin-top: 4em;
 }
 .footer {
     display: flex;
-    margin: 6rem 6rem 2rem 16rem;
+    margin: auto 10em;
     padding-top: 3rem;
 }
 ul{
@@ -132,7 +133,7 @@ ul{
 }
 .social-media {
     display: flex;
-    margin-left: 22rem;
+    margin-left: 15rem;
     justify-content: space-around;
 }
 .media {
