@@ -12,7 +12,7 @@
 body {
     background-image: url(./images/bg-header-desktop.png);
     background-repeat: no-repeat;
-    background-size: 100% 20em;
+    background-size: contain;
     box-sizing: border-box;
     font-family: 'Bai Jamjuree', sans-serif;
     font-size: 18px;
@@ -65,7 +65,7 @@ button {
 }
 .computer-snippet {
     display: flex;
-    gap: 130px;
+    gap: 90px;
     
 }
 .computer {
@@ -133,7 +133,7 @@ ul{
 }
 .social-media {
     display: flex;
-    margin-left: 10rem;
+    margin-left: 9rem;
     justify-content: space-around;
 }
 .media {
@@ -155,4 +155,60 @@ ul{
     height: 23px;
     filter: invert(27%) sepia(51%) saturate(2878%) hue-rotate(143deg) brightness(100%) contrast(97%);
     cursor: pointer;
+}
+
+/* Responsive */
+@media (max-width:768px) {
+    body {
+        background-image: url(./images/bg-header-mobile.png);
+        text-align: center;
+        margin: 0 auto;
+    }
+    .button {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        grid-row-gap: 30px;
+    }
+    .computer-snippet {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .computer > img {
+        width: 70%;
+        align-items: center;
+        margin-left: 4rem;
+    }
+    .inner-text {
+        margin-top: -5em;
+        text-align: center;
+        gap: 0em;
+    }
+    .device {
+        width: 70%;
+    }
+    .flex-row {
+        flex-direction: column;
+        align-items: center;
+    }
+    .flex-row-reverse > figure {
+        flex-direction: column-reverse;
+        grid-row-gap: 3rem;
+    }
+    .footer {
+        flex-direction: column;
+        align-items: center;
+        grid-row-gap: 1rem;
+        margin: 0px;
+    }
+    .about {
+        display: flex;
+        flex-direction: column;
+    }
+    .social-media {
+        flex-direction: column;
+        align-items: center;
+        margin: 0px;
+    }
 }
