@@ -46,7 +46,7 @@ p {
     box-shadow: var(--Strong-cyan) -2px 15px 15px -12px;
 }
 button {
-    transition: ease-in-out 0.8s;
+    transition: ease-in-out 0.5s;
 }
 .Mac {
     width: 200px;
