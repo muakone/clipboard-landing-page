@@ -212,3 +212,30 @@ ul{
         margin: 0px;
     }
 }
+
+@media(max-width:1060px) {
+    .computer-snippet {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .computer > img {
+        align-items: center;
+        margin-left: 4rem;
+    }
+    .inner-text {
+        margin-top: -4em;
+        text-align: center;
+        gap: 0em;
+    }
+    .footer {
+        flex-direction: column;
+        align-items: center;
+        grid-row-gap: 1rem;
+        margin-left: 0px;
+    }
+    .social-media {
+        margin-left: -15px;
+    }
+
+}
