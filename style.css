@@ -5,8 +5,8 @@
     --Grayish-blue: hsl(201, 11%, 66%);
 }
 * {
-    margin: 0px;
-    padding: 0px;
+    margin: 0;
+    padding: 0;
 }
 
 body {
@@ -40,13 +40,10 @@ p {
     background-color: var(--Strong-cyan);
     color: white;
     padding: 1rem;
-    border-radius: 2em;
+    border-radius: 3em;
     border: none;
-    border-bottom: green solid 3px;
     box-shadow: var(--Strong-cyan) -2px 15px 15px -12px;
-}
-button {
-    transition: ease-in-out 0.5s;
+    transition: ease-in-out 2s;
 }
 .Mac {
     width: 200px;
@@ -55,10 +52,10 @@ button {
     color: white;
     padding: 1rem;
     border-radius: 3em;
-    border: blue solid 1px;
-    border-bottom: blue solid 3px;
-    box-shadow: var(--Light-blue) -2px 15px 15px -12px;
+    border: none;
+    box-shadow: var(--Light-blue) -2px 15px 20px -12px;
     margin-left: 10px;
+    transition: ease-in-out 2s;
 }
 .Snippet {
     margin-top: 90px;
@@ -169,6 +166,15 @@ ul{
         flex-direction: column;
         align-items: center;
         grid-row-gap: 30px;
+        margin: 0 auto;
+    }
+    .ios {
+        width: 25em;
+        height: 4.5em;
+    }
+    .Mac {
+        width: 25em;
+        height: 4.5em;
     }
     .computer-snippet {
         display: flex;
@@ -200,16 +206,15 @@ ul{
         flex-direction: column;
         align-items: center;
         grid-row-gap: 1rem;
-        margin: 0px;
+        margin: 0;
     }
     .about {
         display: flex;
         flex-direction: column;
     }
     .social-media {
-        flex-direction: column;
         align-items: center;
-        margin: 0px;
+        margin: 0;
     }
 }
 
